@@ -1,0 +1,9 @@
+@import '../00_Abstracts/index';
+
+html,
+body {
+    main {
+        max-width: $content-width;
+        @include mx(auto);
+    }
+}
